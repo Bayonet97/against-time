@@ -24,42 +24,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        //if (Input.GetKey(KeyCode.W))
-        //{
-        //    transform.Translate(Vector3.forward * walkSpeed * Time.deltaTime);
-        //    rotatePlayerObjectY(0);
-        //}
-        //if (Input.GetKey(KeyCode.A))
-        //{
-        //    transform.Translate(Vector3.left * walkSpeed * Time.deltaTime);
-        //    rotatePlayerObjectY(270);
-        //}
-        //if (Input.GetKey(KeyCode.S))
-        //{
-        //    transform.Translate(Vector3.back * walkSpeed * Time.deltaTime);
-        //    rotatePlayerObjectY(180);
-        //}
-        //if (Input.GetKey(KeyCode.D))
-        //{
-        //    transform.Translate(Vector3.right * walkSpeed * Time.deltaTime);
-        //    rotatePlayerObjectY(90);
-        //}
-        //if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.W))
-        //{
-        //    rotatePlayerObjectY(315);
-        //}
-        //if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D))
-        //{
-        //    rotatePlayerObjectY(45);
-        //}
-        //if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.S))
-        //{
-        //    rotatePlayerObjectY(135);
-        //}
-        //if (Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A))
-        //{
-        //    rotatePlayerObjectY(225);
-        //}
         if (Input.GetKey(KeyCode.LeftShift))
             walkSpeed = 3f;
         else
@@ -74,8 +38,12 @@ public class PlayerMovement : MonoBehaviour
         // Move senteces
         GetComponent<Rigidbody>().velocity = new Vector3(Mathf.Lerp(0, Input.GetAxis("Horizontal") * curSpeed, 0.8f), 0,
                                              Mathf.Lerp(0, Input.GetAxis("Vertical") * curSpeed, 0.8f));
-
         // Rotate playerObject
         playerObject.transform.rotation = Quaternion.LookRotation(GetComponent<Rigidbody>().velocity);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("hit something");
     }
 }

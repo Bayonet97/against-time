@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 16e9513941a38bc4c8dbde14026674c5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BottomHinge
+    100002: BottomHinge1
+    100004: //RootNode
+    100006: FenceBoardBottom
+    100008: FenceBoardMiddle
+    100010: FenceBoardMiddle1
+    100012: FenceBoardMiddle2
+    100014: FenceBoardMiddle3
+    100016: FenceBoardMiddle4
+    100018: FenceBoardTop
+    100020: FencePole
+    100022: FencePole1
+    100024: GateHolder
+    100026: TopHinge
+    100028: transform1
+    100030: transform2
+    400000: BottomHinge
+    400002: BottomHinge1
+    400004: //RootNode
+    400006: FenceBoardBottom
+    400008: FenceBoardMiddle
+    400010: FenceBoardMiddle1
+    400012: FenceBoardMiddle2
+    400014: FenceBoardMiddle3
+    400016: FenceBoardMiddle4
+    400018: FenceBoardTop
+    400020: FencePole
+    400022: FencePole1
+    400024: GateHolder
+    400026: TopHinge
+    400028: transform1
+    400030: transform2
+    2100000: MFencePosts
+    2100002: MFenceWood
+    2300000: BottomHinge1
+    2300002: FenceBoardBottom
+    2300004: FenceBoardMiddle
+    2300006: FenceBoardMiddle1
+    2300008: FenceBoardMiddle2
+    2300010: FenceBoardMiddle3
+    2300012: FenceBoardMiddle4
+    2300014: FenceBoardTop
+    2300016: FencePole
+    2300018: FencePole1
+    2300020: GateHolder
+    3300000: BottomHinge1
+    3300002: FenceBoardBottom
+    3300004: FenceBoardMiddle
+    3300006: FenceBoardMiddle1
+    3300008: FenceBoardMiddle2
+    3300010: FenceBoardMiddle3
+    3300012: FenceBoardMiddle4
+    3300014: FenceBoardTop
+    3300016: FencePole
+    3300018: FencePole1
+    3300020: GateHolder
+    4300000: GateHolder
+    4300002: FencePole
+    4300004: FencePole1
+    4300006: BottomHinge1
+    4300008: FenceBoardMiddle4
+    4300010: FenceBoardMiddle3
+    4300012: FenceBoardMiddle2
+    4300014: FenceBoardMiddle1
+    4300016: FenceBoardMiddle
+    4300018: FenceBoardTop
+    4300020: FenceBoardBottom
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

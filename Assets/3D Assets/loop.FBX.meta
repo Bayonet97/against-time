@@ -113,7 +113,17 @@ ModelImporter:
     13700006: onder_kaak
     13700008: Sphere001
     13700010: Sphere002
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: c5b76777d209392418cd710438dbf0b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 56f58e14b8b0d75428d6da5f64b4ea6e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
